@@ -18,15 +18,27 @@
     --text-color-secundary: #CBD5E1;
     
     /*Font*/
-    --font-family: "Alice", serif;
-    --font-heading1: bold 24px/135% var(--font-family);
-    --font-heading2: bold 16px/140% var(--font-family);
-    --font-heading3: bold 14px/140% var(--font-family);
-    --font-span: bold 14px/145% var(--font-family);
-    --font-paragraph: 14px/160% var(--font-family);
+    --font-family: "Alice", sans-serif;
+    --font-h1: 800 24px/135% var(--font-family);
+    --font-h2: 800 16px/140% var(--font-family);
+    --font-h3: 800 14px/140% var(--font-family);
+    --font-span: 600 14px/145% var(--font-family);
+    --text: 400 16px/140% var(--font-family);
+    --text-sm: 400 14px/160% var(--font-family);
 }
 
 body{
     color: var(--text-color-primary);
     background-color: var(--bg-color);
+
+    font: var(--text);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: var(--brand-color-light);
 }
