@@ -42,3 +42,15 @@ a{
 a:hover{
     color: var(--brand-color-light);
 }
+
+h1{ 
+    font: inherit;
+}
+
+h2{
+    font: inherit;
+}
+
+h3{
+    font: inherit;
+}
