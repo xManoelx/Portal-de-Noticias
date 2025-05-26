@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /*Product*/
+    --brand-color-light: #60A5FA;
+    --brand-color-dark: #1D4ED8;
+
+    /*Base*/
+    --bg-color: #0F172A;
+    --stroke-color: #1E293B;
+
+    /*Text*/
+    --text-color-primary: #F1F5F9;
+    --text-color-secundary: #CBD5E1;
+    
+    /*Font*/
+    --font-family: "Alice", serif;
+    --font-heading1: bold 24px/135% var(--font-family);
+    --font-heading2: bold 16px/140% var(--font-family);
+    --font-heading3: bold 14px/140% var(--font-family);
+    --font-span: bold 14px/145% var(--font-family);
+    --font-paragraph: 14px/160% var(--font-family);
+}
+
+body{
+    color: var(--text-color-primary);
+    background-color: var(--bg-color);
+}
